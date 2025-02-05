@@ -45,6 +45,6 @@ for i in range(acccounts):
         .click()\
         .perform()
     print('Entering game...')
-    sleep(50) #loading...
+    sleep(120) #loading...
     print('Login success')
     driver.quit()
